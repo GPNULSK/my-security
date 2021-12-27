@@ -33,6 +33,7 @@ public class MobileAuthenticationProvider implements AuthenticationProvider {
         return authenticationToken;
     }
 
+
     @Override
     public boolean supports(Class<?> aClass) {
         return MobileAuthenticationToken.class.isAssignableFrom(aClass);
